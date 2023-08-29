@@ -26,26 +26,8 @@ The Redux Chat UI project is built using React and Redux, allowing users to view
 - Start new conversations or open existing conversations
 - View and send messages in the selected conversation
 - Handle errors and display appropriate alerts/notifications
-
-## Installation
-
-1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/champ18ion/Redux-chat-UI.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```shell
-   cd Redux-chat-UI
-   ```
-
-3. Install the dependencies:
-
-   ```shell
-   npm install
-   ```
+## Live project
+[see live here ](https://redux-chat-ui-main-surajgit036.vercel.app/)
 
 ## Usage
 
