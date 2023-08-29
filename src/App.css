@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap');
+*{
+  font-family: 'Hind', sans-serif;
+}
+.chatbox{
+  height: 75vh;
+  overflow: auto;
+}
+.left-panel{
+  max-height: 100vh;
+  overflow: auto;
+}
+.chat-form {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.chat-input {
+  flex: 1;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color:rgba(58, 183, 149,0.2);
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.send-button i {
+  font-size: 20px;
+}
+.right-panel {
+  background-color: #f8f8f8; /* Replace with your desired background color */
+}
+.search input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.contact-item:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+/*
+.App{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.search input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  
+}
+
+.left-panel{
+  height: 100vh;
+  overflow: auto;
+}
+.chatform{
+  position: absolute;
+  bottom: 0;
+  background-color: azure;
+}
+.chatform input{
+  width: 100%;
+} */
